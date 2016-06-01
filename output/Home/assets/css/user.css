@@ -8,7 +8,7 @@
 }
 
 .hero{
-  background:url(../../assets/img/city_bg.jpg) no-repeat center;
+  background:url(../../assets/img/floodplain_bg.jpg) no-repeat center;
   background-size:cover;
   border:none;
 }
@@ -153,5 +153,32 @@ section.testimonials{
   .site-footer .social-icons{
     text-align:right;
   }
+}
+
+label.white{
+  color:#FFF;
+  padding-left:20px;
+  padding-right:10px;
+}
+
+a.btn.login{
+  margin-left:30px;
+  font-size:1em;
+}
+
+p.home-title{
+  font-size:2em;
+  font-weight:bold;
+}
+
+div.right{
+}
+
+label.bold{
+  font-weight:bold;
+}
+
+label.lg{
+  font-size:1.3em;
 }
 
