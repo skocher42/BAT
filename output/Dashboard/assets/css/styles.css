@@ -47,7 +47,6 @@ div.report-buttons{
   align:right;
 }
 
-a.report-link, a.report-link:hover, a.report-link:focus{
-  color:#FFF;
+a.report-link:active, a.report-link:hover, a.report-link:focus{
 }
 

@@ -15,8 +15,8 @@ span.field-label{
   padding-right:10px;
 }
 
-span.field-value{
-  padding-right:30px;
+span.field-value, a.field-value{
+  padding-right:20px;
 }
 
 div.field-column{
@@ -25,7 +25,7 @@ div.field-column{
 }
 
 div.page-column{
-  min-height:500px;
+  min-height:300px;
 }
 
 div.col-md-4{
@@ -49,5 +49,13 @@ div.report-buttons{
 
 a.report-link, a.report-link:hover, a.report-link:focus{
   color:#FFF;
+}
+
+div.tab-content{
+  margin:15px;
+}
+
+h1{
+  margin-bottom:0.8em;
 }
 

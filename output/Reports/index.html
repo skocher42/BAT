@@ -20,8 +20,10 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav">
                         <li role="presentation"><a href="../Dashboard/index.html">Dashboard</a></li>
+                        <li role="presentation"><a href="../BaselineAssessment/index.html">Baseline Assessment</a></li>
                         <li class="active" role="presentation"><a href="../Reports/index.html">Reports </a></li>
-                        <li role="presentation"><a href="../ActionPlans/index.html">Action Plans</a></li>
+                        <li role="presentation"><a href="#">User Admin</a></li>
+                        <li role="presentation"><a href="#">BAT Admin</a></li>
                     </ul><a class="btn btn-danger navbar-btn navbar-right navbar-button" role="button" href="../Home/index.html">Logout </a>
                     <button class="btn btn-info navbar-btn navbar-right navbar-button" type="button">View My Profile</button>
                     <p class="text-nowrap navbar-text navbar-right">
@@ -31,15 +33,83 @@
         </nav>
         <div class="row">
             <div class="col-md-12">
-                <h1>Baseline Assessment Report for Chelan County</h1></div>
+                <h1>Reports </h1></div>
         </div>
         <div class="row">
             <div class="page-column">
-                <p>Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem
-                    ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp; </p>
-                <div class="row">
-                    <div class="col-md-6"><img src="assets/img/sample-donut-chart.PNG"></div>
-                    <div class="col-md-6"></div>
+                <div>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#tab-1" role="tab" data-toggle="tab">Questionnaire Report(s)</a></li>
+                        <li><a href="#tab-2" role="tab" data-toggle="tab">Aggregate Report(s)</a></li>
+                        <li><a href="#tab-3" role="tab" data-toggle="tab">Statistical Summary</a></li>
+                        <li><a href="#tab-4" role="tab" data-toggle="tab">Geographic Interface </a></li>
+                        <li><a href="#tab-5" role="tab" data-toggle="tab">Custom </a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" role="tabpanel" id="tab-1">
+                            <h2>Questionnaires </h2>
+                            <p>Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem
+                                ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp; </p>
+                            <div class="row">
+                                <div class="col-md-4"><img src="assets/img/sample-donut-chart.PNG"></div>
+                                <div class="col-md-4"><img src="assets/img/scoring-breakdown.png"></div>
+                                <div class="col-md-4">
+                                    <h4>Community: Chelan City</h4>
+                                    <h4>Aggregate Score: 71</h4><a class="btn btn-info" role="button" href="#tab-1">Go to Questionnaire</a></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="tab-2">
+                            <h2>Aggregate Reports</h2>
+                            <p>Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem
+                                ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp; </p>
+                            <div class="panel-group" role="tablist" aria-multiselectable="true" id="accordion-2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-2" aria-expanded="true" href="#accordion-2 .item-1">Questionnaire #1: Floodplain Management Program Evaluation</a></h4></div>
+                                    <div class="panel-collapse collapse in item-1" role="tabpanel">
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-md-4"><img src="assets/img/sample-donut-chart.PNG"></div>
+                                                <div class="col-md-6">
+                                                    <h4>Community: Chelan City Government</h4>
+                                                    <h4>Aggregate Score: 71</h4><a class="btn btn-info" role="button" href="#tab-1">Go to Questionnaire</a></div>
+                                                <div class="col-md-12"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-2" aria-expanded="false" href="#accordion-2 .item-2">Questionnaire #2</a></h4></div>
+                                    <div class="panel-collapse collapse item-2" role="tabpanel">
+                                        <div class="panel-body"><span>Item body.</span></div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-2" aria-expanded="false" href="#accordion-2 .item-3">Questionnaire #3</a></h4></div>
+                                    <div class="panel-collapse collapse item-3" role="tabpanel">
+                                        <div class="panel-body"><span>Item body.</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="tab-3">
+                            <h2>Statistical Summary Reports</h2>
+                            <p>Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem
+                                ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.</p>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="tab-4">
+                            <h2>Maps </h2>
+                            <p>Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem
+                                ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur. </p>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="tab-5">
+                            <h2>Custom Reports</h2>
+                            <p>Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem
+                                ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur.&nbsp;Lorem ipsum dolor sit amet non sequitur. </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
