@@ -1,29 +1,117 @@
-.breadcrumb{
-  text-align:center;
-  background-color:transparent;
-  border-bottom:1px solid #eee;
-  padding-top:12px;
-  padding-bottom:12px;
-  margin-bottom:40px;
+.navbar{
+  margin-bottom:0;
+  border:none;
 }
 
-nav.navbar.navbar-default{
-  margin-bottom:0px;
+.navbar-brand .glyphicon{
+  margin-right:6px;
+}
+
+.hero{
+  background:url(../../assets/img/floodplain_bg.jpg) no-repeat center;
+  background-size:cover;
+  border:none;
 }
 
 @media (min-width:992px) {
-  .product h2{
-    margin-top:0;
+  .hero .get-it{
+    text-align:right;
+    margin-top:80px;
+    padding-right:30px;
   }
 }
 
-.navbar .navbar-brand{
-  font-size:24px;
-  line-height:18px;
+@media (max-width:992px) {
+  .hero .get-it{
+    text-align:center;
+  }
 }
 
-.reviewer-name{
-  margin-right:10px;
+@media (max-width:992px) {
+  .hero .phone-preview{
+    text-align:center;
+  }
+}
+
+.hero .get-it h1, .hero .get-it p{
+  color:#fff;
+  text-shadow:2px 2px 3px rgba(0,0,0,0.3);
+  margin-bottom:40px;
+}
+
+.hero .get-it .btn{
+  margin-left:10px;
+  margin-bottom:10px;
+  text-shadow:none;
+}
+
+div.iphone-mockup{
+  position:relative;
+  max-width:250px;
+  margin:20px;
+  display:inline-block;
+}
+
+.iphone-mockup img.device{
+  width:100%;
+  height:auto;
+}
+
+.iphone-mockup .screen{
+  position:absolute;
+  width:88%;
+  height:77%;
+  top:12%;
+  border-radius:2px;
+  left:6%;
+  border:1px solid #444;
+  background-color:#aaa;
+  overflow:hidden;
+  background:url(../../assets/img/screen-content-iphone-6.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+.iphone-mockup .screen:before{
+  content:'';
+  background-color:#fff;
+  position:absolute;
+  width:70%;
+  height:140%;
+  top:-12%;
+  right:-60%;
+  transform:rotate(-19deg);
+  opacity:0.2;
+}
+
+.icon-feature{
+  text-align:center;
+}
+
+.icon-feature .glyphicon{
+  font-size:60px;
+}
+
+section.features{
+  background-color:#369;
+  padding:40px 0;
+  color:#fff;
+}
+
+.features h2{
+  color:#fff;
+}
+
+.features .icon-features{
+  margin-top:15px;
+}
+
+.testimonials blockquote{
+  text-align:center;
+}
+
+section.testimonials{
+  margin:50px 0;
 }
 
 .site-footer{
@@ -39,7 +127,7 @@ nav.navbar.navbar-default{
 
 .site-footer h5{
   color:inherit;
-  font-size:16px;
+  font-size:20px;
 }
 
 .site-footer .social-icons a:hover{
@@ -67,8 +155,47 @@ nav.navbar.navbar-default{
   }
 }
 
-.btn.write-review{
-  float:right;
-  margin-top:-6px;
+label.white{
+  color:#FFF;
+  padding-left:20px;
+  padding-right:10px;
+}
+
+a.btn.login{
+  margin-left:30px;
+  font-size:1em;
+  font-weight:normal;
+  padding:9px 15px 5px;
+}
+
+p.home-title{
+  font-size:2.5em;
+}
+
+div.right{
+}
+
+label.bold{
+  font-weight:bold;
+}
+
+label.lg{
+  font-size:1.3em;
+}
+
+.jumbotron h1{
+  font-size:4em;
+  margin-bottom:20px;
+}
+
+.notbold{
+  font-weight:normal;
+}
+
+a.btn.btn-success.btn-lg.login{
+}
+
+input.text-input{
+  border-radius:5px;
 }
 

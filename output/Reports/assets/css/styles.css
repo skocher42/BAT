@@ -59,3 +59,19 @@ h1{
   margin-bottom:0.8em;
 }
 
+div.sub-category-table{
+  font-weight:bold;
+}
+
+ul.list-group{
+  padding-top:10px;
+}
+
+h1.score-heading{
+  margin:0;
+}
+
+a.btn.score-button{
+  margin:10px 30px;
+}
+

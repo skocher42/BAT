@@ -164,6 +164,8 @@ label.white{
 a.btn.login{
   margin-left:30px;
   font-size:1em;
+  font-weight:normal;
+  padding:9px 15px 5px;
 }
 
 p.home-title{
@@ -184,5 +186,16 @@ label.lg{
 .jumbotron h1{
   font-size:4em;
   margin-bottom:20px;
+}
+
+.notbold{
+  font-weight:normal;
+}
+
+a.btn.btn-success.btn-lg.login{
+}
+
+input.text-input{
+  border-radius:5px;
 }
 

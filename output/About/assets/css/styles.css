@@ -1,0 +1,65 @@
+label{
+  padding-right:10px;
+}
+
+button#btn-profile{
+  margin-left:20px;
+}
+
+button.navbar-button, a.navbar-button{
+  margin-left:20px;
+}
+
+span.field-label{
+  font-weight:bold;
+  padding-right:10px;
+}
+
+span.field-value{
+  padding-right:30px;
+}
+
+div.field-column{
+  text-align:center;
+  padding-bottom:20px;
+}
+
+div.page-column{
+  min-height:300px;
+}
+
+div.col-md-4{
+}
+
+div.footer-right{
+  text-align:right;
+}
+
+p.footer-text{
+  margin-top:10px;
+}
+
+footer{
+}
+
+div.report-buttons{
+  width:30px;
+  align:right;
+}
+
+a.report-link, a.report-link:hover, a.report-link:focus{
+  color:#FFF;
+}
+
+h1{
+  margin-bottom:0.8em;
+}
+
+a.field-value{
+  padding-right:20px;
+}
+
+p.indented{
+  margin-left:20px;
+}
+

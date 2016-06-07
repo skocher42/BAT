@@ -1,0 +1,33 @@
+label{
+  padding-right:10px;
+}
+
+button.navbar-button, a.navbar-button{
+  margin-left:10px;
+}
+
+.float-right{
+  float:right;
+}
+
+p.header-text{
+  margin-top:10px;
+  margin-bottom:-5px;
+  width:100%;
+  text-align:right;
+  line-height:1em;
+}
+
+div.header-column{
+  height:100px;
+}
+
+p.header-text-bottom{
+  margin-bottom:0;
+}
+
+p.heading-h1{
+  line-height:4em;
+  font-size:14pt;
+}
+
