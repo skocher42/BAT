@@ -60,7 +60,7 @@ a.field-value{
 }
 
 label.date-field-label{
-  width:75px;
+  width:100px;
 }
 
 div.row.bordered-box{
@@ -71,6 +71,7 @@ div.row.bordered-box{
 
 input.date-input{
   width:120px;
+  margin-right:20px;
 }
 
 div.clearfix.spacer-small{
@@ -82,15 +83,73 @@ td.centered{
 }
 
 td.select-icon{
+}
+
+td.select-icon i.selected{
+  padding-left:10px;
+  cursor:pointer;
   color:#2aabd2;
+}
+
+div.row.search-filter-second-row{
+  padding-top:20px;
+}
+
+span.spacer{
+  width:30px;
+  display:inline;
+}
+
+label.spacer-left{
+}
+
+div.dropdown.search-dropdown{
+  float:left;
+  margin-right:30px;
+  margin-bottom:20px;
+}
+
+a.btn.search-button{
+  margin-top:20px;
+}
+
+a.btn-search{
+  margin-top:10px;
 }
 
 td.select-icon i{
   padding-left:10px;
   cursor:pointer;
+  color:#D6D6D6;
 }
 
-div.row.search-filter-second-row{
-  padding-top:20px;
+td.select-icon i.active{
+  color:#2aabd2;
+  cursor:pointer;
+}
+
+td.select-icon i.inactive{
+  cursor:default;
+}
+
+i.glyphicon{
+  font-size:14pt;
+}
+
+label.search-field-label{
+  width:100px;
+}
+
+label.search-field-label.first{
+  margin-top:10px;
+}
+
+select.search-select{
+  width:150px;
+  margin-right:50px;
+}
+
+label.date-field-label-second{
+  width:40px;
 }
 

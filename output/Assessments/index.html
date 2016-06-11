@@ -36,87 +36,73 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav">
                         <li role="presentation"><a href="../Dashboard/index.html">Dashboard</a></li>
-                        <li class="active nav-last-item" role="presentation"><a href="../Assessments/index.html">Assessments </a></li>
+                        <li class="active nav-last-item" role="presentation"><a href="../Assessments/index.html">Questionnaires </a></li>
                         <li role="presentation"><a href="../Reports/index.html">Reports </a></li>
                         <li role="presentation"><a href="../Resources/index.html">Resources </a></li>
-                        <li role="presentation"><a href="#">Admin</a></li>
+                        <li role="presentation"><a href="../Admin/index.html">Admin</a></li>
                         <li role="presentation"><a href="../About/index.html">About </a></li>
                     </ul>
                     <button class="btn btn-success navbar-btn navbar-right" type="button"><img src="assets/img/help.png" width="20" height="20"> Help </button>
                 </div>
             </div>
         </nav>
-        <h1 class="text-center">Assessments</h1>
+        <h1 class="text-center">Questionnaires </h1>
         <hr>
         <div class="row">
             <div class="col-md-2">
                 <h4>Search for:</h4></div>
-            <div class="col-md-2">
-                <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Project <span class="caret"></span></button>
-                    <ul class="dropdown-menu" role="menu">
-                        <li role="presentation"><a href="#">10789: Washington Chelan County</a></li>
-                        <li role="presentation"><a href="#">10790: Pennsylvania Dauphin-Lebanon Counties</a></li>
-                        <li role="presentation"><a href="#">10793: Illinois Champaign</a></li>
-                        <li role="presentation"><a href="#">10801: New York Albany County</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">State <span class="caret"></span></button>
-                    <ul class="dropdown-menu" role="menu">
-                        <li role="presentation"><a href="#">Illinois </a></li>
-                        <li role="presentation"><a href="#">New York</a></li>
-                        <li role="presentation"><a href="#">Pennsylvania</a></li>
-                        <li role="presentation"><a href="#">Washington </a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Community <span class="caret"></span></button>
-                    <ul class="dropdown-menu" role="menu">
-                        <li role="presentation"><a href="#">East Hanover Township</a></li>
-                        <li role="presentation"><a href="#">Lower Paxton Township</a></li>
-                        <li role="presentation"><a href="#">Lower Swatara Township</a></li>
-                        <li role="presentation"><a href="#">Paxtang Borough</a></li>
-                        <li role="presentation"><a href="#">West Hanover Township</a></li>
-                        <li role="presentation"><a href="#">Chelan City</a></li>
-                        <li role="presentation"><a href="#">Chelan County</a></li>
-                        <li role="presentation"><a href="#">City of Cashmere</a></li>
-                        <li role="presentation"><a href="#">City of Leavenworth</a></li>
-                        <li role="presentation"><a href="#">Entiat </a></li>
-                        <li role="presentation"><a href="#">Champaign </a></li>
-                        <li role="presentation"><a href="#">Albany County</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Interviewer <span class="caret"></span></button>
-                    <ul class="dropdown-menu" role="menu">
-                        <li role="presentation"><a href="#">Rob Flaner</a></li>
-                        <li role="presentation"><a href="#">Kristen Jenkins </a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row search-filter-second-row">
-            <div class="col-md-2"></div>
-            <div class="col-md-4">
+            <div class="col-md-10">
+                <label class="search-field-label first">Project: </label>
+                <select class="search-select">
+                    <option value="13">All Projects</option>
+                    <option value="12">10789: Dauphin-Lebanon Counties, Pennsylvania</option>
+                    <option value="14">10790: Chelan County, Washington</option>
+                    <option value="">10793: Champaign County, Illinois</option>
+                    <option value="">10801: Albany County, New York</option>
+                </select>
+                <label class="search-field-label">Interviewer: </label>
+                <select class="search-select">
+                    <option value="13">All Interviewers</option>
+                    <option value="">Rob Flaner</option>
+                    <option value="">Kristen Wiig</option>
+                </select>
+                <div class="clearfix"></div>
+                <label class="search-field-label">State: </label>
+                <select class="search-select">
+                    <option value="13">All States</option>
+                    <option value="12">Illinois</option>
+                    <option value="14">New York</option>
+                    <option value="">Pennsylvania</option>
+                    <option value="">Washington</option>
+                </select>
+                <label class="search-field-label">Status: </label>
+                <select class="search-select">
+                    <option value="13">All Statuses</option>
+                    <option value="12">Complete</option>
+                    <option value="14">Pending</option>
+                    <option value="">Open</option>
+                    <option value="">Pre-Interview</option>
+                </select>
+                <div class="clearfix"></div>
+                <label class="search-field-label">Community: </label>
+                <select class="search-select">
+                    <option value="13">All Communities</option>
+                    <option value="12">East Hanover Township</option>
+                    <option value="14">Lower Paxton Township</option>
+                    <option value="">Lower Swatara Township</option>
+                    <option value="">Paxtang Borough</option>
+                </select>
                 <label class="date-field-label">From: </label>
                 <input type="date" value="01/01/2000" class="date-input">
-                <div class="clearfix spacer-small"></div>
-                <label class="date-field-label">To: </label>
+                <label class="date-field-label-second">To: </label>
                 <input type="date" value="01/01/2016" class="date-input">
-            </div>
-            <div class="col-md-2"><a class="btn btn-info" role="button" href="#">Search </a></div>
+                <div class="clearfix"></div><a class="btn btn-info btn-search" role="button" href="#">Search </a></div>
+            <div class="clearfix"></div>
+            <div class="clearfix"></div>
         </div>
         <hr>
         <div class="row">
             <div class="col-md-12">
-                <h4>Search Results:</h4>
                 <div class="table-responsive">
                     <table class="table">
                         <thead>
@@ -126,126 +112,126 @@
                                 <th>Project </th>
                                 <th>Community </th>
                                 <th>State </th>
-                                <th>Primary Agency</th>
+                                <th>Point of Contact </th>
                                 <th>Status </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-ok-circle"></i></td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10789 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-ok-circle selected select-radio-btn"></i></td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-search inactive"></i></td>
+                                <td>10789: Dauphin-Lebanon</td>
                                 <td>East Hanover Township</td>
                                 <td>PA </td>
-                                <td>Dauphin-Lebanon </td>
+                                <td><a href="#"> Jane Smith</a></td>
                                 <td>Complete </td>
                             </tr>
                             <tr>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-ok-circle"></i></td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10789 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-ok-circle select-radio-btn selected"></i></td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-search inactive"></i></td>
+                                <td>10789: Dauphin-Lebanon </td>
                                 <td>Lower Paxton Township</td>
                                 <td>PA </td>
-                                <td>Dauphin-Lebanon </td>
+                                <td> <a href="#">Jane Smith</a></td>
                                 <td>Complete </td>
                             </tr>
                             <tr>
-                                <td class="select-icon"> </td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10789 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-ok-circle select-radio-btn selected"></i></td>
+                                <td class="select-icon"> <a href="../docs/BATool - LST 052915.xlsx"><i class="glyphicon glyphicon-search active"></i></a></td>
+                                <td>10789: Dauphin-Lebanon </td>
                                 <td>Lower Swatara Township</td>
                                 <td>PA </td>
-                                <td>Dauphin-Lebanon </td>
+                                <td> <a href="#">Jane Smith</a></td>
                                 <td>Complete</td>
                             </tr>
                             <tr>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-ok-circle"></i></td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10789 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-ok-circle select-radio-btn selected"></i></td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-search inactive"></i></td>
+                                <td>10789: Dauphin-Lebanon </td>
                                 <td>Paxtang Borough</td>
                                 <td>PA </td>
-                                <td>Dauphin-Lebanon </td>
+                                <td> <a href="#">Jane Smith</a></td>
                                 <td>Complete </td>
                             </tr>
                             <tr>
-                                <td class="select-icon"> </td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10789 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-ok-circle select-radio-btn selected"></i></td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-search inactive"></i></td>
+                                <td>10789: Dauphin-Lebanon </td>
                                 <td>West Hanover Township</td>
                                 <td>PA </td>
-                                <td>Dauphin-Lebanon </td>
+                                <td> <a href="#">Jane Smith</a></td>
                                 <td>Complete </td>
                             </tr>
                             <tr>
-                                <td class="select-icon"> </td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10790 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-record select-radio-btn"></i></td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-search inactive"></i></td>
+                                <td>10790: Chelan County</td>
                                 <td>Chelan City</td>
                                 <td>WA </td>
-                                <td>Chelan County</td>
+                                <td> <a href="#">John Doe</a></td>
                                 <td>Complete </td>
                             </tr>
                             <tr>
-                                <td class="select-icon"> </td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10790 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-record select-radio-btn"></i></td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-search inactive"></i></td>
+                                <td>10790: Chelan County </td>
                                 <td>Chelan County</td>
                                 <td>WA </td>
-                                <td>Chelan County </td>
+                                <td> <a href="#">John Doe</a></td>
                                 <td>Complete </td>
                             </tr>
                             <tr>
-                                <td class="select-icon"> </td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10790 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-record select-radio-btn"></i></td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-search inactive"></i></td>
+                                <td>10790: Chelan County </td>
                                 <td>City of Cashmere</td>
                                 <td>WA </td>
-                                <td>Chelan County </td>
+                                <td> <a href="#">John Doe</a></td>
                                 <td>Complete </td>
                             </tr>
                             <tr>
-                                <td class="select-icon"> </td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10790 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-record select-radio-btn"></i></td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-search inactive"></i></td>
+                                <td>10790: Chelan County </td>
                                 <td>City of Leavenworth</td>
                                 <td>WA </td>
-                                <td>Chelan County </td>
+                                <td> <a href="#">John Doe</a></td>
                                 <td>Complete </td>
                             </tr>
                             <tr>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-ok-circle"></i></td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10790 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-record select-radio-btn"></i></td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-search inactive"></i></td>
+                                <td>10790: Chelan County </td>
                                 <td>City of Wenatchee</td>
                                 <td>WA </td>
-                                <td>Chelan County </td>
+                                <td> <a href="#">John Doe</a></td>
                                 <td>Pending </td>
                             </tr>
                             <tr>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-ok-circle"></i></td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10790 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-record select-radio-btn"></i></td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-search inactive"></i></td>
+                                <td>10790: Chelan County </td>
                                 <td>Entiat </td>
                                 <td>WA </td>
-                                <td>Chelan County </td>
+                                <td> <a href="#">John Doe</a></td>
                                 <td>Open </td>
                             </tr>
                             <tr>
-                                <td class="select-icon"> </td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10790 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-record select-radio-btn"></i></td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-search inactive"></i></td>
+                                <td>10793: Illinois Champaign</td>
                                 <td>Champaign </td>
                                 <td>IL </td>
-                                <td>Champaign County </td>
+                                <td> <a href="#">Sally Fields</a></td>
                                 <td>Pre-Interview </td>
                             </tr>
                             <tr>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-ok-circle"></i></td>
-                                <td class="select-icon"> <i class="glyphicon glyphicon-search"></i></td>
-                                <td>10790 </td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-record select-radio-btn"></i></td>
+                                <td class="select-icon"> <i class="glyphicon glyphicon-search inactive"></i></td>
+                                <td>10801: Albany County</td>
                                 <td>Albany County</td>
                                 <td>NY </td>
-                                <td>Albany County</td>
+                                <td> <a href="#">Roy Romano</a></td>
                                 <td>Pre-Interview </td>
                             </tr>
                         </tbody>
@@ -267,6 +253,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bat.js"></script>
 </body>
 
 </html>

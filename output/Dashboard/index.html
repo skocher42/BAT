@@ -34,10 +34,10 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav">
                         <li class="active" role="presentation"><a href="../Dashboard/index.html">Dashboard</a></li>
-                        <li role="presentation" class="nav-last-item"><a href="../Assessments/index.html">Assessments </a></li>
+                        <li role="presentation" class="nav-last-item"><a href="../Assessments/index.html">Questionnaires </a></li>
                         <li role="presentation"><a href="../Reports/index.html">Reports </a></li>
                         <li role="presentation"><a href="../Resources/index.html">Resources </a></li>
-                        <li role="presentation"><a href="#">Admin</a></li>
+                        <li role="presentation"><a href="../Admin/index.html">Admin</a></li>
                         <li role="presentation"><a href="../About/index.html">About </a></li>
                     </ul>
                     <button class="btn btn-success navbar-btn navbar-right" type="button"><img src="assets/img/help.png" width="20" height="20"> Help </button>
@@ -49,8 +49,8 @@
             <div class="col-md-6 col-sm-6">
                 <h4 class="text-center dashboard-heading">Total Projects</h4>
                 <h3 class="text-center dashboard-heading">4 </h3>
-                <div class="table-responsive">
-                    <table class="table">
+                <div class="table-responsive table-dashboard">
+                    <table class="table table-condensed">
                         <thead>
                             <tr>
                                 <th>Project Status</th>
@@ -60,7 +60,7 @@
                         <tbody>
                             <tr>
                                 <td>Open / Pending</td>
-                                <td>3 </td>
+                                <td class="centered">3 </td>
                             </tr>
                             <tr>
                                 <td>Pre-Survey by Analyst</td>
@@ -74,7 +74,7 @@
                 <h4 class="text-center dashboard-heading">Total Communities</h4>
                 <h3 class="text-center dashboard-heading">21 </h3>
                 <div class="table-responsive">
-                    <table class="table">
+                    <table class="table table-condensed">
                         <thead>
                             <tr>
                                 <th>Community Status</th>
@@ -105,31 +105,64 @@
         </div>
         <div class="row">
             <div class="page-column">
-                <h3 class="buffer-left">Projects </h3>
+                <h3 class="buffer-left">Projects</h3>
                 <div class="panel-group" role="tablist" aria-multiselectable="true" id="accordion-1">
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab">
-                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="true" href="#accordion-1 .item-1">10789: Washington Chelan County</a></h4></div>
+                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="true" href="#accordion-1 .item-1"><i class="glyphicon glyphicon-menu-hamburger float-left padding-right"></i>10790: Chelan County, WA (6 Communities)</a></h4></div>
                         <div class="panel-collapse collapse in item-1" role="tabpanel">
                             <div class="panel-body">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <ul class="list-group">
+                                            <li class="list-group-item"><span class="field-label">State: </span><span>WA </span></li>
                                             <li class="list-group-item"><span class="field-label">Municipality: </span><span>Chelan County </span></li>
                                             <li class="list-group-item"><span class="field-label">Date of current effective FIRM: </span><span>1/5/1978 </span></li>
                                             <li class="list-group-item"><span class="field-label">Last Community Assistance Visit (CAV): </span><span>5 years ago or less </span></li>
                                             <li class="list-group-item"><span class="field-label">Status: </span><span>Post-Interview </span></li>
-                                            <li class="list-group-item"><span class="field-label">Attachments: </span><a href="#" class="field-value">Attachment1.doc</a><a href="#" class="field-value">Attachment2.pdf</a></li>
-                                        </ul><a class="btn btn-info" role="button" href="../Assessments/index.html">Go to Assessment</a></div>
+                                            <li class="list-group-item"><span class="field-label">Attachments: </span>
+                                                <a href="#" class="field-value"><img src="assets/img/doc.gif"> Attachment1.doc</a>
+                                                <a href="#" class="field-value"><img src="assets/img/pdf.gif"> Attachment2.pdf</a>
+                                            </li>
+                                        </ul><a class="btn btn-info" role="button" href="../Assessments/index.html">Go to Questionnaire</a></div>
                                     <div class="col-md-6">
-                                        <h4>Communities:</h4>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><span>East Hanover Township </span></li>
-                                            <li class="list-group-item"><span>Lower Paxton Township </span></li>
-                                            <li class="list-group-item"><span>Lower Swatara Township </span></li>
-                                            <li class="list-group-item"><span>Paxtang Borough </span></li>
-                                            <li class="list-group-item"><span>West Hanover Township </span></li>
-                                        </ul>
+                                        <h4 class="text-center">Communities</h4>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Community Name</th>
+                                                        <th>Status </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Chelan City</td>
+                                                        <td>Complete </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Chelan County</td>
+                                                        <td>Complete </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>City of Cashmere</td>
+                                                        <td>Complete </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>City of Leavenworth</td>
+                                                        <td>Complete </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>City of Wenatchee</td>
+                                                        <td>Pending </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Entiat </td>
+                                                        <td>Open </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -137,32 +170,132 @@
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab">
-                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="false" href="#accordion-1 .item-2">10790: Pennsylvania Dauphin-Lebanon Counties </a></h4></div>
+                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="false" href="#accordion-1 .item-2"><i class="glyphicon glyphicon-menu-hamburger float-left padding-right"></i>10789: Dauphin-Lebanon, PA (5 Communities)</a></h4></div>
                         <div class="panel-collapse collapse item-2" role="tabpanel">
                             <div class="panel-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span>Chelan City </span></li>
-                                    <li class="list-group-item"><span>Chelan County </span></li>
-                                    <li class="list-group-item"><span>City of Cashmere </span></li>
-                                    <li class="list-group-item"><span>City of Leavenworth </span></li>
-                                    <li class="list-group-item"><span>City of Wenatchee </span></li>
-                                    <li class="list-group-item"><span>Entiat </span></li>
-                                </ul>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><span class="field-label">State: </span><span>PA </span></li>
+                                            <li class="list-group-item"><span class="field-label">Municipality: </span><span>Dauphin-Lebanon Counties </span></li>
+                                            <li class="list-group-item"><span class="field-label">Date of current effective FIRM: </span><span>1/5/1978 </span></li>
+                                            <li class="list-group-item"><span class="field-label">Last Community Assistance Visit (CAV): </span><span>5 years ago or less </span></li>
+                                            <li class="list-group-item"><span class="field-label">Status: </span><span>Post-Interview </span></li>
+                                            <li class="list-group-item"><span class="field-label">Attachments: </span><a href="#" class="field-value">Attachment1.doc</a><a href="#" class="field-value">Attachment2.pdf</a></li>
+                                        </ul><a class="btn btn-info" role="button" href="../Assessments/index.html">Go to Questionnaire</a></div>
+                                    <div class="col-md-6">
+                                        <h4 class="text-center">Communities</h4>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Community Name</th>
+                                                        <th>Status </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>East Hanover Township</td>
+                                                        <td>Complete </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Lower Paxton Township</td>
+                                                        <td>Complete </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Lower Swatara Township </td>
+                                                        <td>Complete </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Paxtang Borough</td>
+                                                        <td>Complete </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>West Hanover Township</td>
+                                                        <td>Complete </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab">
-                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="false" href="#accordion-1 .item-3">10793: Illinois Champaign </a></h4></div>
+                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="false" href="#accordion-1 .item-3"><i class="glyphicon glyphicon-menu-hamburger float-left padding-right"></i>10793: Champaign, IL (1 Community)</a></h4></div>
                         <div class="panel-collapse collapse item-3" role="tabpanel">
-                            <div class="panel-body"></div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><span class="field-label">State: </span><span>IL </span></li>
+                                            <li class="list-group-item"><span class="field-label">Municipality: </span><span>Champaign County</span></li>
+                                            <li class="list-group-item"><span class="field-label">Date of current effective FIRM: </span><span>1/5/1978 </span></li>
+                                            <li class="list-group-item"><span class="field-label">Last Community Assistance Visit (CAV): </span><span>5 years ago or less </span></li>
+                                            <li class="list-group-item"><span class="field-label">Status: </span><span>Post-Interview </span></li>
+                                            <li class="list-group-item"><span class="field-label">Attachments: </span><a href="#" class="field-value">Attachment1.doc</a><a href="#" class="field-value">Attachment2.pdf</a></li>
+                                        </ul><a class="btn btn-info" role="button" href="../Assessments/index.html">Go to Questionnaire</a></div>
+                                    <div class="col-md-6">
+                                        <h4 class="text-center">Communities</h4>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Community Name</th>
+                                                        <th>Status </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Champaign </td>
+                                                        <td>Pre-Interview </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab">
-                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="false" href="#accordion-1 .item-4">10801: New York Albany County </a></h4></div>
+                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="false" href="#accordion-1 .item-4"><i class="glyphicon glyphicon-menu-hamburger float-left padding-right"></i>10801: Albany County, NY (1 Community)</a></h4></div>
                         <div class="panel-collapse collapse item-4" role="tabpanel">
-                            <div class="panel-body"></div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><span class="field-label">State: </span><span>NY </span></li>
+                                            <li class="list-group-item"><span class="field-label">Municipality: </span><span>Albany County</span></li>
+                                            <li class="list-group-item"><span class="field-label">Date of current effective FIRM: </span><span>1/5/1978 </span></li>
+                                            <li class="list-group-item"><span class="field-label">Last Community Assistance Visit (CAV): </span><span>5 years ago or less </span></li>
+                                            <li class="list-group-item"><span class="field-label">Status: </span><span>Post-Interview </span></li>
+                                            <li class="list-group-item"><span class="field-label">Attachments: </span><a href="#" class="field-value">Attachment1.doc</a><a href="#" class="field-value">Attachment2.pdf</a></li>
+                                        </ul><a class="btn btn-info" role="button" href="../Assessments/index.html">Go to Questionnaire</a></div>
+                                    <div class="col-md-6">
+                                        <h4 class="text-center">Communities</h4>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Community Name</th>
+                                                        <th>Status </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Albany County</td>
+                                                        <td>Pre-Interview </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

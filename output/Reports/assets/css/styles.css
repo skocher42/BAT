@@ -64,7 +64,7 @@ div.sub-category-table{
 }
 
 ul.list-group{
-  padding-top:10px;
+  margin-top:10px;
 }
 
 h1.score-heading{
@@ -72,6 +72,53 @@ h1.score-heading{
 }
 
 a.btn.score-button{
-  margin:10px 30px;
+  margin:10px 10px;
+}
+
+td.select-icon i{
+  padding-left:10px;
+  cursor:pointer;
+  font-size:14pt;
+}
+
+td.select-icon{
+  color:#2aabd2;
+}
+
+p.sub-heading{
+  margin:20px 0;
+}
+
+a.btn.btn-info.score-button{
+}
+
+th{
+  min-width:70px;
+}
+
+.scoring-green{
+  background-color:#54C74C;
+  color:#FFF;
+}
+
+.scoring-yellow{
+  background-color:#FDC830;
+  color:#FFF;
+}
+
+.scoring-red{
+  background-color:#D70000;
+  color:#FFF;
+}
+
+.scoring-key{
+  padding:10px;
+}
+
+.padding-right{
+  padding-right:10px;
+}
+
+td.score-cell{
 }
 

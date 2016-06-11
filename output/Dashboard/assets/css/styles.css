@@ -145,3 +145,17 @@ a.field-value{
   padding-left:15px;
 }
 
+.table-dashboard > thead > tr > th, .table-dashboard > tbody > tr > td{
+}
+
+.no-margin{
+  margin:0;
+}
+
+.padding-right{
+  padding-right:10px;
+}
+
+td.centered{
+}
+
